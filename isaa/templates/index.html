@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Message sending</title>
+ <link rel="stylesheet" href="../static/index.css">
+</head>
+<body>
+ <div class="login-box">
+  <h1>Send your messages here</h1> <br>
+  <form action="/result" method="post">
+   <div class="user-box">
+    <label for="sender">Sender name: </label>
+    <input type="text" name="sender">
+   </div> <br> <br>
+   <div class="user-box">
+    <label for="receiver">Receiver name: </label>
+    <input type="text" name="receiver">
+   </div> <br> <br>
+   <div class="user-box">
+    <label for="size">Enter the size of binary bits: </label>
+    <input type="text" name="size">
+   </div> <br> <br>
+   <div class="user-box">
+    <label for="size2">Enter the sample size for output: </label>
+    <input type="text" name="size2">
+   </div> <br> <br>
+   <div class="user-box">
+    <label for="message">Enter the message: </label>
+    <input type="text" name="message">
+   </div> <br> <br>
+   <div class="user-box">
+    <label for="radio">Do you want eve's interception: </label>
+    <input type="radio" name="radio" value="yes" class="radio"><label>yes</label>
+    <input type="radio" name="radio" value="no" class="radio"><label>no</label>
+   </div> <br> <br>
+   <input type="submit" value="send" class="button">
+  </form>
+ </div>
+</body>
+</html>

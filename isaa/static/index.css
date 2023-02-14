@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+
+body{
+ background:  #243b55;
+ font-family: 'Fragment Mono', monospace;
+}
+
+.login-box{
+ background: rgba(0, 0, 0, .5);
+ box-shadow: 2px 4px 21px -1px rgba(0, 0, 0, 0.75);
+ margin: 150px 500px;
+ padding: 50px;
+ border-radius: 10px;
+ text-align: center;
+}
+
+.login-box h1{
+ color: #03e9f4;
+ font-size: 35px;
+ text-align: center;
+ font-weight: 100;
+}
+
+.login-box h2 {
+ color: #fff;
+ font-size: 30px;
+ text-align: center;
+ font-weight: 100;
+}
+
+.radio{
+ width: 20px;
+ height: 20px;
+}
+
+.login-box h3 {
+ color: #fff;
+ font-size: 20px;
+ text-align: center;
+ font-weight: 100;
+}
+
+.user-box label{
+ font-size: 25px;
+ color: #fff;
+}
+
+.user-box input{
+ font-size: 25px;
+ color: #fff;
+ background: transparent;
+ border: none;
+ margin: none;
+ border-bottom: 2px solid #fff;
+ size: 20;
+}
+
+.button{
+ font-size: 25px;
+ padding: 10px 30px;
+ margin: 5px 50px;
+ border: none;
+ background: #243b55;
+ border-radius: 3px;
+ color: #fff;
+}
+
+.button:hover{
+ cursor: pointer;
+ box-shadow: 2px 4px 21px -1px rgba(0, 0, 0, 0.75);
+}
